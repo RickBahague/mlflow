@@ -13,6 +13,7 @@
 #'   `httpuv::stopDaemonizedServer()` with the handle returned from this call.
 #' @param browse Launch browser with serving landing page?
 #' @param restore Should \code{mlflow_restore_snapshot()} be called before serving?
+#' @param digits number of digits to be returned for numeric value predictions, defaults to jsonlite's digits = 4
 #'
 #' @examples
 #' \dontrun{
